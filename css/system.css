@@ -1,0 +1,83 @@
+.app {
+	border:1px solid #fff;
+	background:#fff;
+}
+.app_title {
+	width:inherit;
+	font-weight:bold;
+	display:block;
+	text-align:center;
+	background:#777 url('../images/system/app_titlebar.png');
+	height:22px;
+	color:#fff;
+	cursor:move;
+}
+.app_content {
+	width:inherit;
+	display:block;
+	padding:4px;
+	color:#222;
+	font-size:12px;
+}
+.app_toolbox {
+	float:right;
+	margin-top:-17px;
+}
+#system_container {
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:100%;
+	display:none;
+}
+#system_desktop {
+	position:absolute;
+	top:0px;
+	bottom:23px;
+	left:0px;
+	width:100%;
+}
+#system_toolbar {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	background:#ccc url('../images/system/toolbar.png');
+	height:20px;
+	width:100%;
+	border-top:1px solid #333;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left:10px;
+}
+#system_toolbar img {
+	cursor:pointer;
+}
+#system_toolbar a {
+	font-size:14px;
+	color:#ccc;
+	width:100px;
+	float:left;
+	border-right:1px solid #aaa;
+	padding-left:5px;
+	margin-right:1px;
+	padding-top:1px;
+	overflow:hidden;
+}
+#system_toolbar img {
+	background:#ccc url('../images/system/home.png');
+	float:left;
+	border-right:1px solid #aaa;
+	margin-right:1px;
+}
+#system_toolbar img:hover {
+	background:#ccc url('../images/system/home_hover.png');
+}
+#system_toolbar a:hover {
+	background:#333 url('../images/system/toolbar_hover.png');
+}
+#system_toolbar_time {
+	float:right;
+	padding-right:20px;
+	color:#ccc;
+}

@@ -1,0 +1,46 @@
+* {
+	border:0px;
+	margin:0px;
+}
+a {
+	text-decoration:none;
+}
+body {
+	background:#000;
+	overflow:hidden;
+}
+#background {
+	background:#000;
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:-100;
+}
+#login_cursive_logo {
+	position:absolute;
+	right:0px;
+	bottom:23px;
+	background:url('../images/login/cursive_logo.png');
+	width:300px;
+	height:100px;
+}
+.content_title_1 {
+	border-bottom:2px solid #999;
+	margin-bottom:3px;
+}
+.content_title_3 {
+	font-size:16px;
+	text-decoration:underline;
+	text-align:center;
+	margin-bottom:5px;
+}
+.content_tip {
+	border:3px solid #ccc;
+	padding:4px;
+	color:#555;
+	line-height:12px;
+	font-style:italic;
+	margin-bottom:5px;
+}

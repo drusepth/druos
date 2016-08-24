@@ -1,0 +1,38 @@
+#app_welcome_container {
+	width:400px;
+	height:300px;
+	position:absolute;
+	top:40px;
+	left:200px;
+}
+#app_welcome_container a {
+	color:#500;
+}
+#welcome_content_left_column {
+	float:left;
+	margin-right:10px;
+}
+#welcome_content_left_column div {
+	border:1px solid #ddd;
+	padding:10px;
+	width:100px;
+	height:20px;
+	margin-bottom:5px;
+	text-align:center;
+}
+#welcome_content_left_column div:hover {
+	border:1px solid #999;
+}
+#welcome_content_left_column div a {
+	display:block;
+}
+#welcome_content_right_column {
+	float:left;
+	overflow:scroll;
+	overflow-x:hidden;
+	width:260px;
+	height:270px;
+}
+#app_welcome_container p {
+	margin-bottom:7px;
+}
